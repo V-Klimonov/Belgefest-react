@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Стройматериалы и электроинструмент",
+    "mainImg": "img/building-materials.webp",
+    "alt": "Building materials",
+    "shortDescription": "",
+    "card": 0
+  },
+  {
+    "title": "Сантехника",
+    "mainImg": "img/smesiteli.webp",
+    "alt": "Kitchen sink",
+    "shortDescription": "",
+    "card": 0
+  },
+  {
+    "title": "Бытовая техника",
+    "mainImg": "img/tech.webp",
+    "alt": "Home appliance",
+    "shortDescription": "",
+    "card": 0
+  },
+  {
+    "title": "Мясной магазин ОАО 'Беловежский'",
+    "mainImg": "img/belmoris.webp",
+    "alt": "Belmoris",
+    "shortDescription": "",
+    "card": 1
+  },
+  {
+    "title": "Ремонт телевизоров",
+    "mainImg": "img/tv-repair.webp",
+    "alt": "TV",
+    "shortDescription": "",
+    "card": 1
+  },
+  {
+    "title": "Ремонт мобильных телефонов",
+    "mainImg": "img/phone-workshop.webp",
+    "alt": "phone-workshop",
+    "shortDescription": "",
+    "card": 1
+  },
+  {
+    "title": "Парикмахерская",
+    "mainImg": "img/barber.webp",
+    "alt": "Barber",
+    "shortDescription": "",
+    "card": 2
+  },
+  {
+    "title": "Маникюрный кабинет",
+    "mainImg": "img/manicure.webp",
+    "alt": "Manicure",
+    "shortDescription": "",
+    "card": 2
+  },
+  {
+    "title": "Наращивание ресниц",
+    "mainImg": "img/lash.webp",
+    "alt": "Lash",
+    "shortDescription": "",
+    "card": 2
+  },
+  {
+    "title": "Кабинет УЗИ",
+    "mainImg": "img/uzd.webp",
+    "alt": "Clinic",
+    "shortDescription": "",
+    "card": 3
+  },
+  {
+    "title": "Стоматологический кабинет",
+    "mainImg": "img/smile.webp",
+    "alt": "Smile",
+    "shortDescription": "",
+    "card": 3
+  },
+  {
+    "title": "Моделирование бровей",
+    "mainImg": "img/eyebrow-0.webp",
+    "alt": "Eyebrow",
+    "shortDescription": "",
+    "card": 3
+  }
+]
