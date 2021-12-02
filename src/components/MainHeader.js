@@ -1,38 +1,94 @@
-import React from 'react'
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-const MainHeader = () => {
-    return (
-      <div id="header-main-page" className="shadow-box">
-        <Navbar bg="light" expand="lg">
-          <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      </div>
-    );
-}
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-export default MainHeader
+const MainHeader = () => {
+  return (
+    <div id="header-main-page" className="shadow-box">
+      <Navbar expand="lg" id="header-main-page" className="shadow-box">
+        <Container>
+          <Navbar.Brand as={Link} to="/">
+            <div className="logo-img-text">ТОРГОВЫЙ ЦЕНТР</div>
+            <div className="logo-img-text-title">БЕЛГЕФЕСТ</div>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <NavDropdown title="О нас" id="about-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/about">
+                  О нас
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/about/#vacancy">
+                  Вакансии
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#contacts">Контакты</NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown title="Магазины" id="shops-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/belmoris">
+                  Мясной магазин ОАО 'Беловежский'
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ConstructionMaterials">
+                  Строительные материалы
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ConstructionMaterials">
+                  Электроинструмент
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ConstructionMaterials">
+                  Сантехника
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/electronics">
+                  Магазин 'Техника'
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/mobilcom">
+                  Мобильные телефоны
+                </NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown
+                title="Красота и здоровье"
+                id="beauty-heals-nav-dropdown"
+              >
+                <NavDropdown.Item as={Link} to="/ultraSoundDiagnostic">
+                  Кабинет УЗИ
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/dentistry">
+                  Стоматологический кабинет
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/barbershop">
+                  Парикмахерская 'Валенсия'
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/lashmaker">
+                  Наращивание ресниц
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/eyebrow">
+                  Моделирование бровей
+                </NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown
+                title="Мастерские по ремонту"
+                id="workshop-nav-dropdown"
+              >
+                <NavDropdown.Item href="#tv-repair">
+                  Ремонт телевизоров
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/mobilcom">
+                  Ремонт мобильных телефонов
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#contacts">Контакты</NavDropdown.Item>
+              </NavDropdown>
+
+              <Nav.Link as={Link} to="/tenants">
+                Арендаторам
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
+  );
+};
+
+export default MainHeader;

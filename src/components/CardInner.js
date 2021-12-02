@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const CardInner = ({ card }) => {
     return card.map((shop, index) => {
@@ -9,9 +10,9 @@ const CardInner = ({ card }) => {
           className="small-icon"
           alt={shop.alt}
         />
-        <a href="#" className="title-category">
+        <Link  className="title-category" to={shop.link}>
           {shop.title}
-        </a>
+        </Link>
       </div>
     );
   });

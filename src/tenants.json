@@ -4,6 +4,7 @@
     "mainImg": "img/building-materials.webp",
     "alt": "Building materials",
     "shortDescription": "",
+    "link": "/constructionMaterials",
     "card": 0
   },
   {
@@ -11,6 +12,7 @@
     "mainImg": "img/smesiteli.webp",
     "alt": "Kitchen sink",
     "shortDescription": "",
+    "link": "/constructionMaterials",
     "card": 0
   },
   {
@@ -18,6 +20,7 @@
     "mainImg": "img/tech.webp",
     "alt": "Home appliance",
     "shortDescription": "",
+    "link": "/Electronics",
     "card": 0
   },
   {
@@ -25,6 +28,7 @@
     "mainImg": "img/belmoris.webp",
     "alt": "Belmoris",
     "shortDescription": "",
+    "link": "/belmoris",
     "card": 1
   },
   {
@@ -32,6 +36,7 @@
     "mainImg": "img/tv-repair.webp",
     "alt": "TV",
     "shortDescription": "",
+    "link": "#tv-repair",
     "card": 1
   },
   {
@@ -39,6 +44,7 @@
     "mainImg": "img/phone-workshop.webp",
     "alt": "phone-workshop",
     "shortDescription": "",
+    "link": "/mobilcom",
     "card": 1
   },
   {
@@ -46,6 +52,7 @@
     "mainImg": "img/barber.webp",
     "alt": "Barber",
     "shortDescription": "",
+    "link": "/barbershop",
     "card": 2
   },
   {
@@ -53,6 +60,7 @@
     "mainImg": "img/manicure.webp",
     "alt": "Manicure",
     "shortDescription": "",
+    "link": "#",
     "card": 2
   },
   {
@@ -60,6 +68,7 @@
     "mainImg": "img/lash.webp",
     "alt": "Lash",
     "shortDescription": "",
+    "link": "/lashmaker",
     "card": 2
   },
   {
@@ -67,6 +76,7 @@
     "mainImg": "img/uzd.webp",
     "alt": "Clinic",
     "shortDescription": "",
+    "link": "/ultraSoundDiagnostic",
     "card": 3
   },
   {
@@ -74,6 +84,7 @@
     "mainImg": "img/smile.webp",
     "alt": "Smile",
     "shortDescription": "",
+    "link": "/dentistry",
     "card": 3
   },
   {
@@ -81,6 +92,7 @@
     "mainImg": "img/eyebrow-0.webp",
     "alt": "Eyebrow",
     "shortDescription": "",
+    "link": "/eyebrow",
     "card": 3
   }
 ]
