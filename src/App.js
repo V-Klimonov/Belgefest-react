@@ -16,7 +16,7 @@ import Tenants from "./pages/Tenants";
 import UltraSoundDiagnostic from "./pages/UltraSoundDiagnostic";
 
 function App() {
-  console.log("app");
+
 
   return (
     <div className="App">
@@ -27,14 +27,18 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/barbershop" element={<Barbershop />} />
         <Route path="/belmoris" element={<Belmoris />} />
-        <Route path="/constructionMaterials" element={<ConstructionMaterials />} />
+        <Route
+          path="/constructionMaterials"
+          element={<ConstructionMaterials />}
+        />
         <Route path="/dentistry" element={<Dentistry />} />
         <Route path="/electronics" element={<Electronics />} />
         <Route path="/eyebrow" element={<Eyebrow />} />
         <Route path="/lashmaker" element={<Lashmaker />} />
         <Route path="/mobilcom" element={<Mobilcom />} />
         <Route path="/tenants" element={<Tenants />} />
-        <Route path="/ultraSoundDiagnostic"
+        <Route
+          path="/ultraSoundDiagnostic"
           element={<UltraSoundDiagnostic />}
         />
       </Routes>

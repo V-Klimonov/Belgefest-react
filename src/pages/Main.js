@@ -1,28 +1,25 @@
 import React from "react";
 import Card from "../components/Card";
 import CarouselItems from "../components/CarouselItems";
-import tenantsJson from "../tenants.json";
-
+import data from "../data.json";
+import Workshop from "../components/Workshop";
+import { useEffect } from "react";
 
 const Main = () => {
-  console.log("main");
+  useEffect(() => {
+    document.title = 'Торговый центр "Белгефест" г.Пружаны, ул.Заводская, 17';
+  }, []);
   const cards = [[], [], [], []];
-  [...tenantsJson].forEach((item) => cards[item.card].push(item));
-
+  [...data].forEach((item) => cards[item.card].push(item));
+  const shops = [...data].filter((item) => item.category === "shop");
+  const beautyHeals = [...data].filter(
+    (item) => item.category === "beauty-heals"
+  );
+  const workshopCards = [...data].filter((item) => item.category === "workshop");
+  
   return (
     <div>
-      <div>
-        <div className="main-photo"></div>
-        <div className="wrapper-info-for-tenants container">
-          <h5 className="info-for-tenants">
-            Сдаются в аренду помещения от 15 до 300 м.кв. По вопросам аренды
-            обращайтесь по тел.{" "}
-            <a className="phone-number" href="tel:+375297908981">
-              8 (029) 7908981
-            </a>
-          </h5>
-        </div>
-      </div>
+      <div className="main-photo"></div>
       <div className="categorys-tc">
         <div className="wrapper-tc container">
           {cards.map((card, index) => {
@@ -34,9 +31,24 @@ const Main = () => {
         <div className="shops-img">
           <h2 className="title-category-text">Магазины</h2>
         </div>
-        <CarouselItems />
+        <CarouselItems id={"carouselShops"} items={shops} />
       </section>
-      <div id="tv-repair">TV</div>
+      <section className="heals-and-beauty-info">
+        <div className="heals-and-beauty-img">
+          <h2 className="title-category-text">Красота и здоровье</h2>
+        </div>
+        <CarouselItems id={"carouselBeauty"} items={beautyHeals} />
+      </section>
+      <section id="repair-workshops" className="equipment-repair-workshops">
+        <div className="repair-workshops-img">
+          <h2 className="title-category-text">
+            Сертифицированные мастерские по ремонту техники
+          </h2>
+        </div>
+        {workshopCards.map((workshopCard, index) => {
+          return <Workshop key={index} workshopCard={workshopCard} />;
+        })}
+      </section>
     </div>
   );
 };

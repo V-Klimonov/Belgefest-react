@@ -87,6 +87,15 @@ const MainHeader = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className="wrapper-info-for-tenants">
+        <h6 className="info-for-tenants">
+          Сдаются в аренду помещения от 15 до 300 м.кв. По вопросам аренды
+          обращайтесь по тел.{" "}
+          <a className="phone-number" href="tel:+375297908981">
+            8 (029) 7908981
+          </a>
+        </h6>
+      </div>
     </div>
   );
 };
