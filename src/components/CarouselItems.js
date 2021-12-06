@@ -16,7 +16,7 @@ const CarouselItems = ({ items, id }) => {
                   alt={el.alt}
                 />
                 <div className="slide-text-box">
-                  <h2 className="slide-title-text">{el.title}</h2>
+                  <h2 className="slide-title-text">{el.shortTitle}</h2>
                   <p>{el.shortDescription}</p>
                   <div className="working-hours">
                     <img

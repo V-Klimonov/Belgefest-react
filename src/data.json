@@ -119,6 +119,7 @@
     "mainImg": "/img/barber.webp",
     "alt": "Barber",
     "shortDescription": "Мужские стрижки любой сложности, стрижка бороды, камуфляж седины, детские стрижки и даже детки от года, а так же женские стрижки, все виды окрашивания.",
+    "fullDescription": "",
     "link": "/barbershop",
     "href": false,
     "category": "beauty-heals",

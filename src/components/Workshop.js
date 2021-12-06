@@ -12,7 +12,7 @@ const Workshop = ({ workshopCard }) => {
         />
         <div className="workshop-text-box">
           <div className="workshop-text-box-wrapper">
-            <h2 className="box-title-text">{workshopCard.title}</h2>
+            <h2 className="box-title-text">{workshopCard.fullTextTitle}</h2>
             <p>{workshopCard.shortDescription}</p>
             <a className="phone-number" href={workshopCard.hrefPhoneNumMob}>
               {workshopCard.phoneNumMob}

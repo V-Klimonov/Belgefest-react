@@ -16,7 +16,7 @@ const Main = () => {
     (item) => item.category === "beauty-heals"
   );
   const workshopCards = [...data].filter((item) => item.category === "workshop");
-  
+  console.log(beautyHeals);
   return (
     <div>
       <div className="main-photo"></div>
