@@ -14,6 +14,7 @@ import Lashmaker from "./pages/Lashmaker";
 import Mobilcom from "./pages/Mobilcom";
 import Tenants from "./pages/Tenants";
 import UltraSoundDiagnostic from "./pages/UltraSoundDiagnostic";
+import data from "./data.json";
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/*" element={<Navigate replace to="/" />} />
         <Route path="/about" element={<About />} />
-        <Route path="/barbershop" element={<Barbershop />} />
+        <Route path="/barbershop" element={<Barbershop data={data}/>} />
         <Route path="/belmoris" element={<Belmoris />} />
         <Route
           path="/constructionMaterials"

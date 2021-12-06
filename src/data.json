@@ -1,7 +1,9 @@
 [
   {
-    "title": "Стройматериалы и электроинструмент",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Стройматериалы и электроинструмент",
+    "fullTextTitle": "Стройматериалы и электроинструмент",
     "mainImg": "/img/building-materials.webp",
     "alt": "Building materials",
     "shortDescription": "Широкий выбор электроинструмента, строительных материалов и отделочных материалов для профессионалов и домашних мастеров. 1-2 этаж",
@@ -16,8 +18,10 @@
     "card": 0
   },
   {
-    "title": "Сантехника",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Сантехника",
+    "fullTextTitle": "Сантехника",
     "mainImg": "/img/smesiteli.webp",
     "alt": "Kitchen sink",
     "shortDescription": "В нашем магазине вы можете купить сантехнику, акссесуары и мебель для ванных комнат на любой вкус. 1 этаж",
@@ -32,8 +36,10 @@
     "card": 0
   },
   {
-    "title": "Магазин 'Техника'",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Магазин 'Техника'",
+    "fullTextTitle": "Магазин 'Техника'",
     "mainImg": "/img/tech.webp",
     "alt": "Home appliance",
     "shortDescription": "Бытовая техника для дома и семьи. 2 этаж",
@@ -48,8 +54,10 @@
     "card": 0
   },
   {
-    "title": "Мясной магазин ОАО 'Беловежский'",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Мясной магазин ОАО 'Беловежский'",
+    "fullTextTitle": "Мясной магазин ОАО 'Беловежский'",
     "mainImg": "/img/belmoris.webp",
     "alt": "Belmoris",
     "shortDescription": "Свежая свинина, субпробукты, готовая мясная продукция, колбасные изделия которые создаются по лучшим технологиям и отличаются прекрасными вкусовыми качествами, и широким ассортиментом, который вы найдете в нашем фирменном магазине.",
@@ -64,7 +72,9 @@
     "card": 1
   },
   {
-    "title": "Мастерская Mobilcom",
+    "title": "",
+    "page": "",
+    "shortTitle": "Мастерская Mobilcom",
     "fullTextTitle": "Мастерская по ремонту мобильных телефонов Mobilcom",
     "mainImg": "/img/phone-workshop.webp",
     "alt": "phone-workshop",
@@ -82,7 +92,9 @@
     "card": 1
   },
   {
-    "title": "Ремонт телевизоров",
+    "title": "",
+    "page": "",
+    "shortTitle": "Ремонт телевизоров",
     "fullTextTitle": "Мастерская по ремонту телевизоров",
     "mainImg": "/img/tv-repair.webp",
     "alt": "TV",
@@ -100,7 +112,9 @@
     "card": 1
   },
   {
-    "title": "Парикмахерская",
+    "title": "Парикмахерская-студия 'Валенсия' г.Пружаны ТЦ 'Белгефест' 2 этаж",
+    "page": "Barbershop",
+    "shortTitle": "Парикмахерская",
     "fullTextTitle": "Парикмахерская студия 'Валенсия'",
     "mainImg": "/img/barber.webp",
     "alt": "Barber",
@@ -116,7 +130,9 @@
     "card": 2
   },
   {
-    "title": "Наращивание ресниц",
+    "title": "",
+    "page": "",
+    "shortTitle": "Наращивание ресниц",
     "fullTextTitle": "Наращивание ресниц",
     "mainImg": "/img/lash.webp",
     "alt": "Lash",
@@ -132,7 +148,9 @@
     "card": 2
   },
   {
-    "title": "Моделирование бровей",
+    "title": "",
+    "page": "",
+    "shortTitle": "Моделирование бровей",
     "fullTextTitle": "Моделирование бровей",
     "mainImg": "/img/eyebrow-0.webp",
     "alt": "Eyebrow",
@@ -149,7 +167,9 @@
     "card": 3
   },
   {
-    "title": "Маникюрный кабинет",
+    "title": "",
+    "page": "",
+    "shortTitle": "Маникюрный кабинет",
     "fullTextTitle": "Маникюрный кабинет",
     "mainImg": "/img/manicure.webp",
     "alt": "Manicure",
@@ -163,8 +183,10 @@
     "card": 2
   },
   {
-    "title": "Кабинет УЗИ",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Кабинет УЗИ",
+    "fullTextTitle": "Кабинет ультразвуковой диагностики",
     "mainImg": "/img/uzd.webp",
     "alt": "Clinic",
     "shortDescription": "Современное оборудование, высококвалификацированные специалисты. Ультразвуковая диагностика: внутренних органов, желез, головного мозга новорожденных, сосудов нижних и верхних конечностей. 2 этаж",
@@ -181,8 +203,10 @@
     "card": 3
   },
   {
-    "title": "Стоматологический кабинет",
-    "fullTextTitle": "",
+    "title": "",
+    "page": "",
+    "shortTitle": "Стоматологический кабинет",
+    "fullTextTitle": "Стоматологический кабинет",
     "mainImg": "/img/smile.webp",
     "alt": "Smile",
     "shortDescription": "Консультации, лечение зубов, эстетическая реставрация зубов, профессиональная гигиена полости рта (удаление зубных отложений ультразвуком, механическое удаление зубного налета с применением паст, полировка зубов). 2этаж",

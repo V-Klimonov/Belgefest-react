@@ -11,8 +11,8 @@ const CardInner = ({ card }) => {
           className="small-icon"
           alt={el.alt}
         />
-        <Link  className="title-category" to={el.link}>
-          {el.title}
+        <Link className="title-category" to={el.link}>
+          {el.shortTitle}
         </Link>
       </div>
     );
