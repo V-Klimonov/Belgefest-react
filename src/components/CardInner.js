@@ -7,7 +7,7 @@ const CardInner = ({ card }) => {
     return (
       <div key={index} className="icon-and-title-category">
         <img
-          src={process.env.PUBLIC_URL + el.mainImg}
+          src={process.env.PUBLIC_URL + el.img[0]}
           className="small-icon"
           alt={el.alt}
         />

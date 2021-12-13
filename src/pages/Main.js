@@ -10,13 +10,16 @@ const Main = () => {
     document.title = 'Торговый центр "Белгефест" г.Пружаны, ул.Заводская, 17';
   }, []);
   const cards = [[], [], [], []];
-  [...data].forEach((item) => cards[item.card].push(item));
-  const shops = [...data].filter((item) => item.category === "shop");
-  const beautyHeals = [...data].filter(
+  data.forEach((item) => cards[item.cardLocation].push(item));
+  // const cards = data.map(el =>{
+  //    
+  // })
+  const shops = data.filter((item) => item.category === "shop");
+  const beautyHeals = data.filter(
     (item) => item.category === "beauty-heals"
   );
-  const workshopCards = [...data].filter((item) => item.category === "workshop");
-  console.log(beautyHeals);
+  const workshopCards = data.filter((item) => item.category === "workshop");
+  
   return (
     <div>
       <div className="main-photo"></div>

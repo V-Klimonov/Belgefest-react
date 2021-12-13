@@ -27,7 +27,7 @@ const MainHeader = () => {
 
               <NavDropdown title="Магазины" id="shops-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/belmoris">
-                  Мясной магазин ОАО 'Беловежский'
+                  Мясной магазин ОАО "Беловежский"
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ConstructionMaterials">
                   Строительные материалы
@@ -39,7 +39,7 @@ const MainHeader = () => {
                   Сантехника
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/electronics">
-                  Магазин 'Техника'
+                  Магазин "Техника"
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/mobilcom">
                   Мобильные телефоны
@@ -57,7 +57,7 @@ const MainHeader = () => {
                   Стоматологический кабинет
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/barbershop">
-                  Парикмахерская 'Валенсия'
+                  Парикмахерская "Валенсия"
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/lashmaker">
                   Наращивание ресниц

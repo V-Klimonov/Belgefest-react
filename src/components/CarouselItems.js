@@ -12,7 +12,7 @@ const CarouselItems = ({ items, id }) => {
               <div className="slide-box">
                 <img
                   className="carousel-img-w"
-                  src={process.env.PUBLIC_URL + el.mainImg}
+                  src={process.env.PUBLIC_URL + el.img[0]}
                   alt={el.alt}
                 />
                 <div className="slide-text-box">

@@ -7,7 +7,7 @@ const Workshop = ({ workshopCard }) => {
       <div id={workshopCard.id} className={workshopCard.innerDirection}>
         <img
           className="repair-workshops-photo"
-          src={process.env.PUBLIC_URL + workshopCard.mainImg}
+          src={process.env.PUBLIC_URL + workshopCard.img[0]}
           alt={workshopCard.alt}
         />
         <div className="workshop-text-box">
