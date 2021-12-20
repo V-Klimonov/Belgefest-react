@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Belgefest-react/static/css/main.a0c60350.chunk.css",
-    "main.js": "/Belgefest-react/static/js/main.32f6a229.chunk.js",
-    "main.js.map": "/Belgefest-react/static/js/main.32f6a229.chunk.js.map",
+    "main.js": "/Belgefest-react/static/js/main.9fd26590.chunk.js",
+    "main.js.map": "/Belgefest-react/static/js/main.9fd26590.chunk.js.map",
     "runtime-main.js": "/Belgefest-react/static/js/runtime-main.4cd38a24.js",
     "runtime-main.js.map": "/Belgefest-react/static/js/runtime-main.4cd38a24.js.map",
     "static/css/2.383c0125.chunk.css": "/Belgefest-react/static/css/2.383c0125.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.e80c03af.chunk.js",
     "static/css/main.a0c60350.chunk.css",
-    "static/js/main.32f6a229.chunk.js"
+    "static/js/main.9fd26590.chunk.js"
   ]
 }
