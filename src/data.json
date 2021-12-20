@@ -219,10 +219,10 @@
     "cardLocation": 3
   },
   {
-    "title": "",
-    "path": "",
-    "shortTitle": "Маникюрный кабинет",
-    "fullTextTitle": "Маникюрный кабинет",
+    "title": "Подологические услуги, медицинский педикюр, маникюр г.Пружаны ТЦ \"Белгефест\" 2 этаж",
+    "path": "/manicure",
+    "shortTitle": "Подологический кабинет",
+    "fullTextTitle": "Подологические услуги, медицинский педикюр, маникюр",
     "img": ["/img/manicure.webp"],
     "alt": "Manicure",
     "shortDescription": "Маникюр и педикюр. 2 этаж",
@@ -230,8 +230,8 @@
     "link": "#",
     "href": false,
     "category": "beauty-heals",
-    "phoneNumMob": "",
-    "hrefPhoneNumMob": "",
+    "phoneNumMob": "8 (033) 6996003",
+    "hrefPhoneNumMob": "+375336996003",
     "workingHours": " по записи",
     "cardLocation": 2
   },
